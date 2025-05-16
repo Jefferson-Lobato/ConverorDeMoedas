@@ -19,8 +19,12 @@
         <section class="section-one">
             <label class="label-one">Converter <b>de</b>
                 <br>
-                <select>
-                    <option>R$ Real brasileiro</option>
+                <select class="input-select-currency">
+                    <option value="real">R$ Real</option>
+                    <option value="dolar">USD Dólar</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">£ Libra</option>
+                    <option value="bitcoin">BTC BitCoin</option>
                 </select>
                 <br>
             </label>
@@ -31,19 +35,21 @@
                     <option value="euro">€ Euro</option>
                     <option value="libra">£ Libra</option>
                     <option value="bitcoin">BTC BitCoin</option>
+                    <option value="real">R$ Real</option>
                 </select>
                 <br>
             </label>
             <label>
-                Valor
+                Valor a ser <b>convertido</b>
+            </label>
                 <br>
-                <input class="input-currency" placeholder="R$ 00.00">
+                <input class="input-currency" placeholder="00.00">
             </label>
             <br>
             <button class="convert-button">Converter</button>
             <section class="section-two">
                 <div>
-                    <img class="real-logo" src="./assets/real.png" alt="moeda-real">
+                    <img class="convert-currency-logo" src="./assets/real.png" alt="moeda-real">
                     <label class="value-convert"> R$ 00.00 </label>
                 </div>
                 <div>

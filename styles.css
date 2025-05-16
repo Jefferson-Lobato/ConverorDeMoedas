@@ -115,6 +115,11 @@ div {
     padding-left: 20px;
 }
 
+.convert-currency-logo {
+    width: 20%;
+    margin: 10px 0px 0px 0px;
+}
+
 .converted-currency-logo {
     width: 20%;
     margin: 10px 0px 0px 0px;
@@ -128,7 +133,7 @@ div {
 
 @media screen and (max-width: 430px ) { 
     img {
-    width: 200px;
+    width: 150px;
 }
 
 h1 {
